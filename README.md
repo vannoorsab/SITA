@@ -45,22 +45,12 @@ All logs are enriched with ADK LLM analysis for accurate security classification
 
 ---
 
-# 🏗 Architecture
+## 🏗 Architecture
 
 
 
-![SITA Architecture](SITA- Architecture.png)
+![SITA Architecture](SITA-Architecture.png)
 
-
----
-
-# 📦 Project Structure
-
-
-sita-alerts/
- ├── sita-frontend/   # React + Vite UI
- ├── sita-backend/    # Node.js backend API (Cloud Run)
- ├── README.md
 
 
 ---
