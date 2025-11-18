@@ -8,6 +8,7 @@ It analyzes logs using AI, detects security threats, classifies severity, and di
 This system is fully production-ready and hackathon-ready.
 
 ---
+![SITA Architecture](./home.png)
 
 ## 🚀 Features
 
