@@ -49,7 +49,7 @@ All logs are enriched with ADK LLM analysis for accurate security classification
 
 
 
-![SITA Architecture](SITA-Architecture.png)
+![SITA Architecture](./SITA-Architecture.png)
 
 
 
