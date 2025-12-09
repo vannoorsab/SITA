@@ -1,0 +1,13 @@
+name: block_ip_then_snapshot
+description: Block the offending IP and then snapshot the affected VM.
+actions:
+  - type: block_ip
+    description: Block the primary indicator IP associated with the alert.
+    params:
+      source: enrichment.ips[0].ip
+    rollback: Remove the firewall or WAF rule blocking the IP.
+  - type: snapshot_vm
+    description: Take a snapshot of the affected VM/instance for forensics.
+    params:
+      source: alert.asset_id
+    rollback: Delete or revert the snapshot once investigation is complete.

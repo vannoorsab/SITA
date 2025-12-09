@@ -1,0 +1,8 @@
+name: block_ip
+description: Block a single offending IP at the firewall or WAF.
+actions:
+  - type: block_ip
+    description: Block the primary indicator IP associated with the alert.
+    params:
+      source: enrichment.ips[0].ip
+    rollback: Remove the firewall or WAF rule blocking the IP.

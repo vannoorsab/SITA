@@ -1,0 +1,1 @@
+# SITA Log Collector package
